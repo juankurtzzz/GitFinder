@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1d2128;
+}
+
+hr {
+  border: 1px solid rgba(229, 229, 229, 0.2);
+}
+
+.Imagens {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+
+.Background {
+  margin-top: 50px;
+  width: 40vw; 
+  height: auto;
+  margin-left: 30px;
+}
+
+.Informacoes {
+  position: absolute;
+  top: 50px; 
+  right: 90px;
+  width: 50%;
+  color: white;
+  margin-top: 50px;
+}
+
+input{
+  border: 1px solid  #9999;
+  border-radius: 22px;
+  width: 85%;
+  background: transparent;
+  font-size: 18px;
+  padding:10px;
+}
+
+
+button{
+  border: 1px solid  #9999;
+  color: white;
+  border-radius: 22px;
+  background: transparent;
+  width: 80px;
+  font-size: 18px;
+  padding:10px;
+  margin-left: 10px;
+}
+
+.Perfil{
+  display: flex;
+  margin: 40px 0;
+}
+
+.FotoPerfil{
+  width: 150px;
+  border-radius: 70px;
+  border: 1px solid #ffff;
+  margin: 20px;
+  ;
+}
+
+.InformacoesPerfil h3{
+  color: #9999;
+  font-size: 24px;
+  margin: 0%;
+  margin-top: 1px;
+  margin-left: 8px;
+  margin-right: 32px;
+}
+
+.InformacoesPerfil p{
+   color: #9999;
+   font-size: 12px;
+   margin: 20px 0 0 0 ;
+   margin-top: 20px 0 0 0;
+   margin-left: 10px;
+   margin-right: 32px;
+}
+
+
+.InformacoesPerfil span{
+  color: #9999;
+  font-size: 12px;
+  margin: 0px;
+  margin-top: 1px;
+  margin-left: 8px;
+  margin-right: 32px;
+}
+
+.InformacoesPerfil hr{
+  margin-top: 110px;
+  width: 625px;
+  align-items: flex-start;
+}

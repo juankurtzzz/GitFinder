@@ -1,0 +1,16 @@
+.ItemList {
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .ItemList strong {
+    color: #007bff;
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .ItemList p {
+    color: #9999;
+    font-size: 12px;
+    margin: 0;
+  }
