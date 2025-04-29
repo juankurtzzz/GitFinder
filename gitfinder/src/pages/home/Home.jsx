@@ -1,6 +1,7 @@
 import Button from '../../components/Button/Button';
 import Header from '../../components/Header/Header';
 import Input from '../../components/Input/Input';
+import ItemList from '../../components/ItemList/ItemList';
 import Background from '../../assets/GitHub.svg'
 
 import './HomeStyle.css'
@@ -22,8 +23,16 @@ function Home() {
           <div className='InformacoesPerfil'>
             <h3>Juan Pietro Kurtz</h3>
             <span>@juankurtzzz</span>
-            <p>Descrição</p>
-            <hr/>
+            <p>Descrição:</p>
+          <div className='Repositorios'>
+          </div>
+          </div>
+          <div className='ItemList'>
+          <hr/>
+          <h3>Repositorios</h3>
+          <ItemList title="Cenoura" description="Fresca da horta" />
+          <ItemList title="Cenoura" description="Fresca da horta" />
+          <ItemList title="Cenoura" description="Fresca da horta" />
           </div>
         </div>
       </div>
