@@ -13,7 +13,6 @@ O **GitFinder** é uma aplicação que consome a API pública do GitHub e permit
 ## 🚀 Tecnologias utilizadas
 
 - ⚛️ React com Vite
-- 🎨 CSS Modules
 - 🌐 Fetch API para requisições HTTP
 - 🧩 Estrutura modular de componentes
 
@@ -37,5 +36,3 @@ src/
 ```
 
 ---
-
-💡 Projeto ideal para praticar consumo de APIs, organização de componentes em React e estilização com CSS Modules.
