@@ -18,4 +18,17 @@ O **GitFinder** é uma aplicação que consome a [API pública do GitHub](https:
 - Estrutura modular de componentes
 
 ## 📁 Estrutura do projeto
-src/ ├── assets/ # Imagens e SVGs │ └── GitHub.svg ├── components/ # Componentes reutilizáveis │ ├── Button/ │ ├── Header/ │ ├── Input/ │ └── ItemList/ ├── pages/ │ └── home/ # Página principal │ ├── Home.jsx │ └── HomeStyle.css ├── index.css # Estilos globais ├── main.jsx # Entry point da aplicação
+src/
+├── assets/                  # Imagens e SVGs
+│   └── GitHub.svg
+├── components/              # Componentes reutilizáveis
+│   ├── Button/
+│   ├── Header/
+│   ├── Input/
+│   └── ItemList/
+├── pages/
+│   └── home/                # Página principal
+│       ├── Home.jsx
+│       └── HomeStyle.css
+├── index.css                # Estilos globais
+└── main.jsx                 # Entry point da aplicação
