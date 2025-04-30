@@ -32,6 +32,7 @@ body {
 
 input {
   border: 1px solid #9999;
+  color: aliceblue;
   border-radius: 22px;
   width: 85%;
   background: transparent;
@@ -104,7 +105,7 @@ button {
 
 .ItemList hr {
   margin-bottom: 20px;
-  margin-top: 120px; /* Aumente esse valor para descer mais o hr */
+  margin-top: -10px;
   width: 100%;
   border: 1px solid rgba(229, 229, 229, 0.2);
 }
